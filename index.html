@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/fonts.css">
+  <link rel="stylesheet" type="text/css" href="styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/responsiveness.css">
+
+<!-- Google Fonts -->
+
+
+<!-- Icons FontAwesome -->
+<script src="https://kit.fontawesome.com/7b54f30bf8.js" crossorigin="anonymous"></script>
+  
+  <title>Tiana Lewis' Design Portfolio</title>
+</head>
+<body>
+ <!-- HERO -->
+ <section class="hero-container">
+    
+    <div class="hero-image">
+      <img src="" alt="put text here">
+    </div>
+    <div class="hero-text">
+        <h1>Tiana Lewis' Design Portfolio</h1>
+      <h2>Graphic, UX/UI & Brand Designer</h2>
+    </div>
+    </section>
+<!--CARDS-->
+
+  <section class="c-container" id="services">
+
+    <h2 class="banner-h2">Design Work</h2>
+
+    <ul class="card-container">
+      <li class="card">
+        <img class="c-img" src="" alt="">
+        <div class="card-content">
+          <h3 class="subheader">
+            Project
+          </h3>
+          <h4 class="header">
+            Description
+          </h4>
+          <p class="paragraph">
+            enter text here
+          </p>
+        </div>
+      </li>
+      <li class="card">
+        <img class="c-img" src="" alt="">
+        <div class="card-content">
+          <h3 class="subheader">
+            Project
+          </h3>
+          <h4 class="header">
+            Description
+          </h4>
+          <p class="paragraph">
+            enter text here
+          </p>
+        </div>
+      </li>
+      <li class="card">
+        <img class="c-img" src="" alt="">
+        <div class="card-content">
+          <h3 class="subheader">
+            Project
+          </h3>
+          <h4 class="header">
+            Description
+          </h4>
+          <p class="paragraph">
+            enter text here
+          </p>
+        </div>
+      </li>
+    </ul>
+  </section>  
+
+<!--CONTENT-->
+
+<section class="container content-container" id="content">
+  
+    <div class="content">
+      <img class="content-image" src="" alt="">
+    </div>
+    <div class="content">
+    <div class="content-text">
+      <h2>title</h2>
+      <p>enter text here</p>  
+      <button class="content-btn">Let's Work!</button>
+    </div>
+    </div>
+    
+  </section>
+
+<!--VIDEO-->
+  <section class="container vid">
+
+  <h2 class="banner-h2">video title</h2>  
+
+<div class="vid-container">
+
+  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/C_qGepkW3KI?si=Ow-Z-GKnH9MBH-V2" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <!--Replace video-->
+    </div>
+  </section>
+
+
+  <!-- ACCORDIAN -->
+  <section class="container accordion-container" id="faq">
+    <h2 class="banner-h2">FAQ's</h2>
+  
+    <div class="accordion-wrapper">
+      <button class="accordion-button">
+        enter question here 
+        <i class="fa-solid fa-angle-up icon-before"></i>
+        <i class="fa-solid fa-angle-down icon-after"></i>
+      </button>
+  
+      <div class="panel">
+        <p>enter accordian text</p>
+      </div>
+      
+      <button class="accordion-button">
+        enter question here 
+        <i class="fa-solid fa-angle-up icon-before"></i>
+        <i class="fa-solid fa-angle-down icon-after"></i>
+      </button>
+      <div class="panel">
+        <p>enter accordian text</p>
+      </div>
+      
+      <button class="accordion-button">
+        enter question here 
+        <i class="fa-solid fa-angle-up icon-before"></i>
+        <i class="fa-solid fa-angle-down icon-after"></i>
+      </button>
+    <div class="panel">
+        <p>enter accordian text</p>
+      </div>
+
+      <button class="accordion-button">
+        enter question here 
+        <i class="fa-solid fa-angle-up icon-before"></i>
+        <i class="fa-solid fa-angle-down icon-after"></i>
+      </button>
+    <div class="panel">
+        <p>enter accordian text</p>
+      </div>
+      
+      <script>
+  var acc = document.querySelectorAll(".accordion-button");
+
+for (var i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+      </script> <!--may change accordian buttons-->
+
+        </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section class="footer-container">
+      <div class="footer-item">
+              <h3>Get in Contact</h3>
+              <p>enter text here</p>
+            </div>
+
+    <div class="footer-item">
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20068.584327775454!2d-114.0960815256836!3d51.042505999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537171f4358389df%3A0x7b1c052b9b84eaeb!2sVenue%20308!5e0!3m2!1sen!2sca!4v1710952847178!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <!--replace with SAIT?-->
+      </div>
+    </div>
+
+         <div class="footer-item">
+        <h3>Links</h3>
+        <ul class="links">
+          <li><a href="#content" class="wht-link">About Tiana</a></li> <!--link to other page-->
+          <li><a href="#content" class="wht-link">Design Work</a></li>
+          <li><a href="#faq" class="wht-link">FAQ</a></li>
+          <li><a href="#faq" class="wht-link">LinkedIn</a></li> <!--Link to actual linkedin-->
+          <li><a href="#" class="wht-link">Contact</a></li>
+        </ul>
+        </div>
+        
+<div class="copy">
+  <p>&copy; <script>document.write(new Date().getFullYear())</script> Tiana Lewis Design, All Rights Reserved.</p>
+</div>
+</section>
+</body>
+</html>
