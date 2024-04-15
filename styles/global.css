@@ -1,0 +1,36 @@
+/* Card Sections */
+.c-container {
+    margin: 3rem auto;
+    max-width: 75rem;
+    padding: 3rem 1.5rem;
+    position: relative;
+  }
+  
+  /* Card Section Header Content */
+  .header-container {
+    background-color: #dddddd;
+    text-align: center;
+    padding: 6rem 1rem;
+  }
+
+  /* Content Sections */
+.container {
+    margin: 3rem auto;
+    max-width: 75rem;
+    padding: 3rem 1.5rem;
+    position: relative;
+  }
+  
+  /* Content Section Header Content */
+  .header-container {
+    background-color: #DDDDDD;
+    text-align: center;
+    padding: 6rem 1rem;
+  }
+  
+  /* Content Option header */
+  .option-container {
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 3rem 1rem;
+  }

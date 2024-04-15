@@ -1,0 +1,72 @@
+ 
+ 
+ /*CARDS*/
+
+    /* Desktop */
+    @media screen and (min-width: 1200px) {
+        .card {
+          flex: 1 0 calc(33% - 15px);
+          padding: 1px;
+          box-sizing: border-box;
+        }
+      }
+
+      /* Mobile */
+      @media screen and (max-width: 768px) {
+        .card {
+            width: calc(100% - 15px) /* accounting for width-gap */
+        }
+      }
+
+      /* Tablet */
+      @media screen and (min-width: 768px) and (max-width: 1199px){
+        .card {
+            width: calc(50% - 15px); /* accounting for width-gap */
+        }
+      }
+
+/*Video*/
+
+    /* Mobile */
+    @media screen and (max-width: 768px) {
+      .vid-container {
+        padding-bottom: 5%;
+    }
+}
+
+  /* Tablet */
+  @media screen and (min-width: 768px) and (max-width: 1199px){
+    .vid-container {
+      padding-bottom: 5%;
+    }
+}
+
+/*Footer*/
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .footer-item {
+      flex-basis: 100%;
+  }
+
+  .map {
+      width: 100%; /* Ensure the map takes full width */
+      max-width: none; /* Remove max-width to allow full responsiveness */
+      aspect-ratio: 16 / 9;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer-item {
+      flex-basis: 50%;
+  }
+
+  .map {
+      width: 100%; /* Ensure the map takes full width */
+      max-width: 500px; /* Limit maximum width to 500px */
+      aspect-ratio: 16 / 9;
+  }
+}
