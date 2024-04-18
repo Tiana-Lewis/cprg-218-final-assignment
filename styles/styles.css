@@ -1,7 +1,7 @@
 /*TOP NAV*/
 
 .nav-container {
-    background-color: #333;
+    background-color: #362C2A;
 }
 
 .nav-menu {
@@ -24,7 +24,7 @@
 }
 
 .nav-menu a:hover {
-    background-color: #555;
+    color: #CF4114;
 }
 
 /*CARDS*/
@@ -39,7 +39,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #FFF2D8;
 }
 .card {
     background-color: #fff;
@@ -49,7 +49,7 @@ body {
   }
   
   .c-img {
-    border-bottom: 0.25rem solid #BF6900;
+    border-bottom: 0.25rem solid #CF4114;
     border-radius: 0.25rem 0.25rem 0 0;
     height: auto;
     width: 100%;
@@ -76,37 +76,29 @@ html {
 }
 
   ::selection {
-    color: #BF6900;
-    background: rgb(255, 255, 255);
+    color: #FBC256;
+    background: #362C2A;
   }
+
+
 
 /*FONTS*/
 h1 {
-    font-family: "Reem Kufi Fun", sans-serif, Helvetica;
     font-optical-sizing: auto;
-    font-weight: 800;
     font-style: normal;
-    border: 6px double rgb(255, 255, 255);
     padding: 35px;
-    box-shadow: 1px 1px 2px #433E0E;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 60px;
+    background-color: #362C2A;
+    opacity: .95;
 }
 
 h2 {
-    font-weight: bolder;
-}
-
-h2, h3, h4, h5, button {
-    font-family: "Karla", sans-serif, Arial;
-}
-
-h3 {
-    font-weight: bold;
-}
-
-p, li, summary {
-    font-family: "Lato", serif, Arial;
-    font-weight: 400;
-    font-style: normal;
+    background-color: #362C2A;
+    opacity: .95;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 /* HERO SECTION */
@@ -115,7 +107,7 @@ body, html {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #FFF6E1;
+    background-color: #FFF2D8;
   }
 
 .hero-container {
@@ -147,7 +139,6 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 1px 1px 2px #433E0E;
 }
 
 /* CONTENT SECTION */
@@ -176,7 +167,7 @@ body, html {
     border: #ffffff solid;
     border-width: 1px;
     padding: 2rem;
-    background-color: #474D21;
+    background-color: #362C2A;
 }
 
 .content-image {
@@ -186,6 +177,7 @@ body, html {
     justify-content: center;
     max-width: 100%;
     padding-right: 5%;
+    border-radius: 50%;
 }
 
 .content-image img {
@@ -205,29 +197,30 @@ body, html {
 }
 
 .content-btn {
-    background-color: #433E0E;
+    background-color: #4D3E3C;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    margin-top: 20px;
     cursor: pointer;
     transition: 0.4s;
     border: #ffffff solid;
     border-width: 1px;
+    font-size: 18px;
 }
 
 .content-btn:hover {
-    background-color: #000000
+    background-color: #CF4114
 }
 
 /* ACCORDION SECTION */
 .banner-h2 {
     text-align: center;
     padding-bottom: 1.5rem; 
-    background-color: #474D21;
+    background-color: #362C2A;
     padding-top: 1.5rem;
     color: #fff; 
     border: #ffffff solid;
@@ -242,7 +235,7 @@ body, html {
 }
 
 .accordion-button {
-    background-color: #676F32;
+    background-color: #4D3E3C;
     color: #ffffff;
     cursor: pointer;
     padding: 15px;
@@ -257,14 +250,14 @@ body, html {
 
 .panel {
     padding: 0 18px;
-    background-color: #000000;
+    background-color: #CF4114;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
 
 .accordion-button:hover {
-    background-color: #000000;
+    background-color: #362C2A;
 }
 
 /*ICONS IN ACCORDION*/
@@ -311,13 +304,13 @@ body, html {
 
 /* FOOTER SECTION */
 .footer-container {
-    background-color: #EEE6D1;
+    background-color: #FFEBC5;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    color: #fff;
+    color: #362C2A;
     justify-content: space-evenly;
     padding-top: 4rem;
 }
@@ -363,11 +356,11 @@ li {
 }
 
 li:hover {
-    color: #BF6900;
+    color: #CF4114;
 }
 
 .wht-link:hover {
-    color: #fff27c;
+    color: #CF4114;
 }
 
 .wht-link {

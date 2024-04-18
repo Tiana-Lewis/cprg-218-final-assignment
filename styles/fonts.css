@@ -7,7 +7,7 @@ font-style: normal;
 }
 
 Futura Demi{
-font-family: futura-pt, sans-serif;
+font-family: futura-pt, sans-serif, arial;
 font-weight: 600;
 font-style: normal;   
 }
@@ -17,25 +17,43 @@ Sirenia {
     font-weight: 800;
     font-style: normal;   
 }
+Operetta-18-Bold-Italic {
+    font-family: "operetta-18", serif, arial;
+    font-weight: 700;
+    font-style: italic;
+}
 
 /*Font Usage*/
 
-p, li, button, h3, h4, h5, h6 {
-font-family: futura-pt, sans-serif;
+p, li, button, h4, h5, h6 {
+font-family: futura-pt, sans-serif, arial;
 font-weight: 400;
 font-style: normal;
-line-height: 1.1;
 margin: 1rem 0;
 }
 
+button {
+font-weight: 500;
+}
+
+h3 {
+font-family: futura-pt, sans-serif, arial;
+font-weight: 600;
+font-style: normal; 
+margin: 1rem 0;
+
+}
+
 h1 {
-font-family: sirenia, sans-serif, arial;
-font-weight: 800;
-font-style: normal;    
+    font-family: "operetta-18", serif, arial;
+    font-weight: 700;
+    font-style: italic;
 }
 
 h2 {
-font-family: futura-pt, sans-serif;
-font-weight: 600;
-font-style: normal;  
+    font-family: futura-pt, sans-serif, arial;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.1;
+    margin: 1rem 0;
 }
