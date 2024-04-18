@@ -27,6 +27,60 @@
     color: #CF4114;
 }
 
+
+/*API*/
+
+.api {
+    padding: 0;
+}
+
+.g-btn {
+    background-color: #4D3E3C;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.4s;
+    border: #ffffff solid;
+    border-width: 1px;
+    font-size: 18px;
+}
+
+.api-info {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colorCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.color-box {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.color-info p {
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
 /*CARDS*/
 .card-container {
     display: flex;
@@ -41,19 +95,21 @@
 body {
     background-color: #FFF2D8;
 }
+
 .card {
     background-color: #fff;
     border-radius: 0.25rem;
     box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
-    width: 24rem;
-  }
-  
-  .c-img {
+    width: calc(33.33% - 20px); /* Adjust width based on 3 cards per row */
+    margin: 10px;
+}
+
+.c-img {
     border-bottom: 0.25rem solid #CF4114;
     border-radius: 0.25rem 0.25rem 0 0;
     height: auto;
     width: 100%;
-  }
+}
 
   .card-content {
     padding: 1rem;
@@ -99,6 +155,7 @@ h2 {
     opacity: .95;
     margin-top: 20px;
     padding: 20px;
+    font-size: 30px;
 }
 
 /* HERO SECTION */
@@ -107,7 +164,7 @@ body, html {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #FFF2D8;
+    background-color: #362C2A;
   }
 
 .hero-container {
@@ -216,6 +273,10 @@ body, html {
     background-color: #CF4114
 }
 
+.g-btn.g-btn:hover {
+    background-color: #CF4114
+}
+
 /* ACCORDION SECTION */
 .banner-h2 {
     text-align: center;
@@ -304,13 +365,13 @@ body, html {
 
 /* FOOTER SECTION */
 .footer-container {
-    background-color: #FFEBC5;
+    background-color: #2A2321;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    color: #362C2A;
+    color: #ffffff;
     justify-content: space-evenly;
     padding-top: 4rem;
 }
@@ -364,7 +425,7 @@ li:hover {
 }
 
 .wht-link {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }
 
