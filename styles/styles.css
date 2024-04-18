@@ -154,6 +154,11 @@ h1 {
     opacity: .95;
 }
 
+.subh1 {
+    color: white;
+    text-align: center;
+}
+
 h2 {
     background-color: #362C2A;
     opacity: .95;
