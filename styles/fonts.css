@@ -25,7 +25,7 @@ Operetta-18-Bold-Italic {
 
 /*Font Usage*/
 
-p, li, button, h4, h5, h6 {
+p, li, button, h4, h5, h6, a {
 font-family: futura-pt, sans-serif, arial;
 font-weight: 400;
 font-style: normal;

@@ -144,7 +144,6 @@ html {
 
 /*FONTS*/
 h1 {
-    font-optical-sizing: auto;
     font-style: normal;
     padding: 35px;
     padding-left: 60px;
@@ -157,6 +156,8 @@ h1 {
 .subh1 {
     color: white;
     text-align: center;
+    background-color: #2A2321;
+    border-style: double;
 }
 
 h2 {
