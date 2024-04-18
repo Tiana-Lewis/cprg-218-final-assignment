@@ -4,6 +4,10 @@
     background-color: #362C2A;
 }
 
+.nav-container2 {
+    background-color: #2A2321;
+}
+
 .nav-menu {
     display: flex;
     justify-content: flex-end;
